@@ -1,0 +1,16 @@
+
+<div *ngFor="let li of list" class="col-lg-3">
+
+  <div class="thumbnail"> 
+    <img src="assets/{{li.images}}.png">
+    <h4>Name : {{li.name}}</h4>
+    <h5 >Age : {{li.Age}}</h5>
+    <input [(ngModel)]="Demo" type="text" />
+   
+    <button class="btn" (click)="clk()">Click</button>
+  </div>
+
+
+
+</div>
+
